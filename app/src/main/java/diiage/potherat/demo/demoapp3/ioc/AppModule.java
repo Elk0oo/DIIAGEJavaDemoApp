@@ -6,7 +6,6 @@ import android.util.Log;
 import androidx.room.Room;
 
 import com.google.gson.Gson;
-import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

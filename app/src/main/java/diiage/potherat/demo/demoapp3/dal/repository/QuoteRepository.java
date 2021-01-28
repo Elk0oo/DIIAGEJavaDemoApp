@@ -11,5 +11,7 @@ public interface QuoteRepository {
 
     Long create(Quote quote);
     void update(Quote quote);
-    void delete(Quote quote);
+    Integer getCountQuote();
+    Integer getCountSource();
+    Quote getLastAuthorQuote();
 }
